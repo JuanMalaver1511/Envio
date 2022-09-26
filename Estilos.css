@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+.container {
+    background: rgba(13, 114, 182, 0.795);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+p {
+    color: #fff;
+    font-size: xx-large;
+    padding: 15%;
+}
+
+button {
+    border-radius: 20px;
+    font-size: xx-large;
+    padding: 0.75em;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgba(8, 82, 82, 0.493) ;
+    color: #fff;
+}
+
+#yesBtn {
+    transform: translate(-100%, 0);
+}
+
+#noBtn {
+    position: absolute;
+   /* top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%); */
+}
